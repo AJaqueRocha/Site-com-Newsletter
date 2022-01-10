@@ -1,0 +1,132 @@
+body {
+  text-align:center;
+  font-family:Open Sans,sans-serif;
+  background-color: #fcadff;
+  color: rgb(39, 31, 114);
+  margin: 0px 0px 30px 0px;
+  }
+
+  @keyframes titulo {
+  0% {color: yellow; opacity: 0.6;}
+  20% {color: orange; opacity: 0.6; }
+  40% {color: red; opacity: 0.6;}
+  60% {color: violet; opacity: 0.6;}
+  80% {color: blue; opacity: 0.6;}
+  100% {color: green; opacity: 0.6;}
+}
+
+  .titulo {
+    color: yellow;
+    font-family: Comic Sans MS, Comic Sans, cursive; 
+    font-size: 80px;
+    font-weight:800;
+    margin-top: 50px;
+    animation-name: titulo;
+    animation-duration: 2.5s;
+    animation-iteration-count: 6s;
+    -webkit-text-stroke: 5px #fc0bd4;
+  }
+
+  h2 {
+    color: rgba(255, 255, 0, 0.932);
+    font-size:40px;
+    width: 20%;
+    margin: 50px auto;
+    white-space: nowrap;
+  }
+
+  section {
+  width:80%; 
+  margin: 0 auto;
+  }
+
+  section section {
+    width: 100%;
+  }
+
+  h3 {
+    font-size:26px;
+    font-style:normal;
+    color: #64dfe8;
+    font-family: Comic Sans MS, Comic Sans, cursive;font-weight:600;
+    -webkit-text-stroke: 0.8px rgb(47, 47, 145);
+  }
+
+  .interessante {
+    color: #f10dcb;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight:500;
+    -webkit-text-stroke: #f10dcb;
+  }
+
+  p {
+    line-height: 1.5;
+    font-size: 20px;
+  }
+
+  img {
+    width: 25%;
+    border: #99ffff solid;
+    border-radius: 5px;
+  }
+
+  iframe {
+    border: #99ffff solid;
+    border-radius: 5px;
+  }
+
+  ul {
+    list-style-type:none;
+    line-height:2;
+  }
+
+  a {
+    text-decoration:none; 
+    font-weight:700;
+  }  
+
+  a:link {
+  color:rgb(126, 227, 245);
+  }
+
+  a:visited {
+  color: #0000FF;
+  } 
+
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  .principal a {
+    font-weight: 800;
+    background-color: #ff00ff;
+    border-radius: 5px;
+    height: 60px;
+    max-width: 40%;
+    margin: 0 auto;
+  }
+
+  .principal a:link {
+  color:#FFF;
+  }
+
+  .principal a:visited {
+  color: #0000FF;
+  } 
+
+  .principal a:hover {
+    color: rgb(126, 227, 245);
+  }
+
+  .principal li {
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+  }
+
+  .botao {
+    background-color: #52f2dd;
+    border: solid 1px transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
+  }
